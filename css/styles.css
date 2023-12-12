@@ -200,7 +200,13 @@ header {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
+.features-background {
+  width: 264px;
+  height: 112px;
+  background-color: #f4f4fd;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+}
 .features-link {
   flex-basis: calc((100% - 72px) / 4);
   list-style-type: none;
@@ -213,6 +219,7 @@ header {
   line-height: 24px;
   letter-spacing: 0.4px;
   margin-bottom: 8px;
+  margin-top: 8px;
 }
 .feature-text {
   color: var(--SLATE, #434455);
@@ -221,6 +228,16 @@ header {
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.32px;
+}
+.features-background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.features-background-icon {
+  width: 64px;
+  height: 64px;
+  margin: 0 auto;
 }
 
 /* Our team */
