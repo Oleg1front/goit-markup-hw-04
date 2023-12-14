@@ -324,12 +324,10 @@ header {
   background-color: #4d5ae5;
   border-radius: 50%;
 }
-/* .team-social-media-link:hover {
-  background-color: #404bbf;
-} */
-.team-list:hover .team-social-media-link {
+.team-social-media-link:hover {
   background-color: #404bbf;
 }
+
 /* Portfolio */
 
 .section-portfolio {
