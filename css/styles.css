@@ -278,14 +278,15 @@ header {
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  padding-bottom: 32px;
 }
 .container-member {
   padding: 32px 0;
-  display: block;
-  width: 40px;
-  height: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 8px;
-  background-color: #4d5ae5;
   border-radius: 50%;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -307,6 +308,7 @@ header {
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.32px;
+  margin-bottom: 8px;
 }
 .team-social-media-links {
   padding-bottom: 32px;
@@ -316,6 +318,10 @@ header {
   justify-content: center;
   list-style-type: none;
   gap: 24px;
+}
+.team-social-media-list-item {
+  width: 40px;
+  height: 40px;
 }
 .team-social-media-link {
   width: 100%;
@@ -328,6 +334,12 @@ header {
 }
 .team-social-media-link:hover {
   background-color: #404bbf;
+}
+.team-social-media-link:focus {
+  background-color: #404bbf;
+}
+.team-social-media-icon {
+  fill: #f4f4fd;
 }
 
 /* Portfolio */
